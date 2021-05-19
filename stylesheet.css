@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=M+PLUS+Rounded+1c:wght@500&family=RocknRoll+One&family=Yusei+Magic&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+/* header */
+
+nav {
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+.top-icon {
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+    margin-left: 150px;
+    padding: 0 20px;
+    line-height: 100px;
+    background-color: rgba(106, 155, 106, 0.3);
+}   
+
+.menu-button {
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    font-size: 24px;
+    padding: 0 20px;
+    line-height: 100px;
+}
+
+nav a {
+    color: floralwhite;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+
+.top-icon:hover {
+    background-color:  rgba(106, 155, 106, 0.8);
+}
+
+.interview-button {
+    margin-right: 150px;
+}
+
+.interview-button:hover, .article-button:hover {
+    color: rgba(170, 212, 172, 0.932);
+}
+
+@media (max-width: 767px) {
+    .top-icon {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    nav li {
+        font-size: 15px;
+        padding: 0 13px;
+    }
+    
+    .interview-button {
+        margin-right: 20px;
+    }
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+.copy {
+    line-height: 100px;
+    margin:0 0 0 150px;
+    color: floralwhite;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+@media (max-width: 767px) {
+    .copy {
+        width: 100%;
+        font-size: 16px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+/* introduction */
+
+.top-wrapper {
+    padding-top: 100px;
+    height: 750px;
+    width: 100%;
+    background-image: url('../images/IMG_E5425.JPG');
+    background-size: cover;
+    position: relative;
+}
+
+.top-wrapper h1 {
+    color: #584a32;
+    font-size: 70px;
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #ffffff6e;
+    box-shadow: 0 0 10px 10px #ffffff6e;
+    border-radius: 60px;
+    padding: 30px;
+}
+
+.bake01 img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+
+.bake01 {
+    display: flex;
+    background-color: rgb(236, 243, 227);
+   
+}
+
+.recipe01 {
+    flex-basis: 50%;
+}
+
+.recipe-title {
+    border-bottom: 3px solid rgb(152, 141, 160);
+    font-size: 30px;
+    letter-spacing: 5px;
+    width: 600px;
+    margin: 30px 0 0 40px;
+    color: rgb(88, 42, 8);
+}
+
+.yukaryu {
+    color: mediumpurple;
+    font-size: 40px;
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 0 15px;
+}
+
+.list01 {
+    width: 550px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.list01 li {
+    padding: 10px 20px;
+}
+
+.butter-image {
+    flex-basis: 50%;
+    margin: 0;
+    height: 500px;
+}
+
+.bake02 {
+    display: flex;
+    height: 500px;
+    background-color: rgb(236, 243, 227);    
+}
+
+.bake02 img {
+    width: 100%;
+    object-fit: cover;
+    height:  501px;
+}
+
+.bake-image {
+    flex-basis: 62%;
+    margin: 0;
+}
+
+.recipe02 {
+    flex-basis: 38%;
+}
+
+.list02 {
+    font-size: 18px;
+    margin: 30px 20px;
+}
+
+.list02 li {
+    padding: 10px 20px;
+}
+
+.point-title {
+    font-size: 30px;
+    color: saddlebrown;
+    font-family: "Segoe Script";
+    text-align: center;
+    padding-top: 60px;
+}
+
+.fa-leanpub, .fa-mug-hot {
+    padding: 0 10px;
+    color: rgb(168, 116, 66);
+}
+
+.point {
+    padding: 20px 55px;
+    font-weight: bold;
+}
+
+.kind img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.kind {
+    display: flex;
+    background-color: rgb(236, 243, 227);
+}
+
+.gura-image {
+    flex-basis: 30%;
+    margin: 0;
+}
+
+.description {
+    flex-basis: 40%;
+    margin: 0 auto;
+}
+
+.kind-title {
+    color: rgb(88, 42, 8);
+    font-size: 30px; 
+    text-align: center;
+    border-bottom: 3px solid rgb(152, 141, 160);
+    margin: 20px;
+}
+
+.sentence {
+    padding: 10px 30px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+.sentence01 {
+    padding-bottom: 20px;
+}
+
+
+.plain-image {
+    flex-basis: 30%;
+    margin: 0;
+}
+
+.line {
+    background-image: url("b_illust_6_1L.png");
+    background-repeat: repeat-x;
+    background-position: left center;
+    height: 62px;
+    background-color: rgb(236, 243, 227);
+}
+
+.motto {
+    background-color: rgb(236, 243, 227);
+    text-align: center;
+}
+
+.eat-title {
+    width: 500px;
+    font-size: 30px;
+    color: rgb(88, 42, 8);
+    margin: 0 auto;
+    padding-top: 50px;
+    border-bottom: 3px solid rgb(152, 141, 160);
+}
+
+.eat {
+    display: flex;
+    margin: 0;
+    background-color: rgb(236, 243, 227);
+    height: 400px;
+}
+
+.eat img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    height: 300px;
+}
+
+.jam-image {
+    flex-basis: 30%;
+}
+
+.eat-sentence {
+    flex-basis: 70%;
+    padding: 30px 70px 0 30px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+.br-sp{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+    .br-sp {
+        display: block;
+    }
+
+    .top-wrapper {
+        height: 300px;
+    }
+
+    .top-wrapper  h1{
+        font-size: 25px;
+        padding: 15px;
+        position: absolute;
+        top: 120px;
+        left: 40px;
+    }
+
+    .bake01, .bake02, .kind, .eat {
+        display: block;
+    }
+       
+
+    .recipe-title {
+        width: 100%;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .yukaryu {
+        font-size: 24px;
+    }
+
+    .list01 {
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+        padding: 20px 0 20px 30px;
+    }
+
+    .butter-image, .butter-image img {
+        height: 250px;
+    }
+
+    .bake-image, .bake-image img {
+        height: 250px;
+    }
+
+    .list02 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .list02 li {
+        padding: 20px 0 20px 30px;
+    }
+
+    .point-title {
+        padding-top: 20px;
+    }
+
+    .point {
+        font-size: 14px;   
+    }
+
+    .bake02 {
+        height: 620px;
+    }
+
+    .kind-title {
+        font-size: 20px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .sentence {
+        font-size: 15px;
+    }
+
+    .eat-title {
+        font-size: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+
+    .eat {
+        height: 800px;
+    }
+
+    .eat-sentence {
+        font-size: 15px;
+        padding: 30px 18px;
+    }
+
+    .jam-image {
+        margin: 0 20px;
+        height: 200px;
+        padding-top: 20px;
+    }
+
+    .jam-image img {
+        height: 200px;
+    }
+
+}
